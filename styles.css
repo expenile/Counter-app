@@ -1,0 +1,81 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.title{
+    text-align: center;
+    font-size: 2.4rem;
+}
+.sub{
+    text-align: center;
+    font-size: 2.25rem;
+}
+.container{
+    display: flex; /* Add flex container */
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+     /* Make sure the body takes up the full viewport height */
+    margin: 0; /* Remove default margin */
+}
+.inc-btn{
+    background-color: rgb(184, 134, 11);
+    width: 335px;
+    height: 65px;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    
+}
+.inc-btn:hover{
+    background-color: rgb(228, 179, 55);
+}
+.dec-btn{
+    background-color: rgb(184, 134, 11);
+    width: 335px;
+    height: 65px;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+}
+.dec-btn:hover{
+    background-color: rgb(228, 179, 55);
+}
+
+.save-btn{
+    background-color: rgb(148, 19, 69);
+    width: 130px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    
+}
+.save-btn:hover{
+    background-color:rgb(212, 68, 124);
+}
+#save-el{
+    font-size: 2.9rem;
+    font-weight: 600;
+}
+#total-el{
+    font-size: 2.5rem;
+}
+#inc-dec{
+    display: block;
+}

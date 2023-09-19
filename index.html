@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>People counter app</title>
+</head>
+<body>
+   <div class="title"><h1>People Entered:</h1></div>
+   <div class="sub">
+    <h2 id="count-el">0</h2>
+   </div>
+   <div class="container"> 
+      <div id="inc-dec">
+         <button class="inc-btn" onclick="increment()">INCREMENT</button><br>
+         <button class="dec-btn" onclick="decrement()">DECREMENT</button>
+      </div>
+      <p><div><button class="save-btn" onclick="save()">SAVE</button></div></p>
+      <p id="save-el">Previous entries:</p>                 
+   </div>
+   <script src="index.js"></script>
+</body>
+</html>
