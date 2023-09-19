@@ -9,6 +9,6 @@ This is a simple web application that allows you to count the number of people e
 
 ## Demo
 
-You can see a live demo of this app: [Live demo](#https://expenile.github.io/Counter-app/).
+You can see a live demo of this app:(#https://expenile.github.io/Counter-app/).
 
 
